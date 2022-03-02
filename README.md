@@ -13,6 +13,7 @@ This library to facilitate decode and encode `[String: Any]`, `[Any]`
 ## Requirements
 
 - iOS 8.0 or later
+- watchOS 6.0 or later
 - Xcode 10.0 or later
 
 ## Installation

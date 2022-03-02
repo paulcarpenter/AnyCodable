@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Tai Le' => 'sirlevantai@gmail.com' }
   s.source = { :git => 'https://github.com/levantAJ/AnyCodable.git', :tag => s.version }
   s.source_files = 'AnyCodable/**/*.{h,swift}'
-  s.platform = :ios
   s.ios.deployment_target = '8.0'
+  s.watchos.deployment_target = '6.0'
   s.requires_arc = true
 end
